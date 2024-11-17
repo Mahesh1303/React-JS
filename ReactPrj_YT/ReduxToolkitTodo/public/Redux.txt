@@ -1,0 +1,13 @@
+Firstly create a react strore 
+
+use create store functio  to create a store
+
+give access of this store to the main.jsx using provider
+
+
+
+
+pass reducers in that strore
+
+use usedispatch and useSelector to handle the functions made
+use useSelector to bring values from the store
