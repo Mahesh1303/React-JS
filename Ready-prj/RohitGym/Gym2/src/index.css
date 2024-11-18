@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.app-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.app-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.dashboard-container, .profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.activity-dashboard, .calories-dashboard, .goals-dashboard {
+  text-align: center;
+}
+
+.logout-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.logout-button:hover {
+  background-color: darkred;
+}
+
+.profile-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-section label {
+  margin: 1rem 0;
+}
